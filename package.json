@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-2015",
+  "version": "1.0.0",
+  "description": "Updated portfolio design for 2015",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryoungz/portfolio-2015.git"
+  },
+  "author": "Robert Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryoungz/portfolio-2015/issues"
+  },
+  "homepage": "https://github.com/ryoungz/portfolio-2015",
+  "devDependencies": {
+    "browser-sync": "^2.9.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
