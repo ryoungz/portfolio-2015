@@ -1,9 +1,18 @@
-/* style.scss */
 body {
-	background: green;
+	font-family: 'Montserrat', sans-serif;
 }
-.testing {
-  width: percentage(5/7);
+.container {
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.footer {
+    padding: 4.5em 0;
+}
+.footer {
+    padding: 3em 0;
+    text-align: center;
+    background-color: #242A32;
+    color: #A4A4A4;
 }
 
 
