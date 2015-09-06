@@ -1,15 +1,107 @@
 body {
+  margin: 0;
   font-family: 'Montserrat', sans-serif; }
+  body a {
+    color: #000; }
+
+nav {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  float: right;
+  background-color: transparent; }
+  nav a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 0 0 0 1.5em;
+    font-size: .9em;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-decoration: none; }
 
 .container {
+  max-width: 64em;
   margin: 0 auto;
-  padding: 0 1.5em; }
+  padding: 0 2em; }
 
-.footer {
-  padding: 4.5em 0; }
+header {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.header-description {
+  font-size: 1.5em;
+  max-width: 30em; }
+
+.header-link {
+  font-weight: 400;
+  font-size: .65em;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  line-height: 2.25; }
+  .header-link a {
+    text-decoration: none; }
+
+.header-title {
+  display: inline-block;
+  font-size: .9em;
+  letter-spacing: .02em;
+  text-transform: uppercase; }
+
+.header-subtitle {
+  margin-left: 5px;
+  display: inline-block;
+  font-size: .9em;
+  font-spacing: .02em;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+.main-featured-background {
+  height: 550px;
+  background: #031121; }
+
+.main-featured-description {
+  position: relative;
+  z-index: 2;
+  color: #F7F7F5; }
+
+.main-notes {
+  padding: 3em 0;
+  background-color: #FFF; }
+
+.main-notes-date {
+  float: left;
+  width: 20%;
+  margin: 0;
+  line-height: 2.25; }
+
+.main-notes-description {
+  width: 80%;
+  font-size: 1.25em; }
+
+.main-notes-post {
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid #DDD;
+  padding: 3em 0; }
+
+.main-notes-post:last-of-type {
+  border-bottom: none; }
+
+.main-notes-title {
+  margin: 0;
+  font-size: .9em;
+  text-transform: uppercase;
+  letter-spacing: .2em; }
 
 .footer {
   padding: 3em 0;
   text-align: center;
-  background-color: #242A32;
+  background-color: #1565C0;
   color: #A4A4A4; }
+  .footer ul {
+    list-style: none; }
+    .footer ul li {
+      display: inline-block; }
+
+.footer-info {
+  font-size: 80%; }
