@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     a {
-        color: #000;
+        color: #05070F;
     }
 }
 
@@ -68,7 +68,7 @@ header {
 
 .main-featured-background {
     height: 550px;
-    background: #031121;
+    background: #2C3E50;
 }
 
 .main-featured-description {
@@ -78,7 +78,7 @@ header {
 }
 
 .main-notes {
-    padding: 3em 0;
+    padding-top: 3em;
     background-color: #FFF;
 }
 
@@ -95,10 +95,12 @@ header {
 }
 
 .main-notes-post {
-    position: relative;
+		height: 170px;
+    display: flex;
+    align-items: baseline;
     z-index: 1;
     border-bottom: 1px solid #DDD;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 .main-notes-post:last-of-type {
@@ -112,27 +114,27 @@ header {
     letter-spacing: .2em;
 }
 
-.footer {
-    padding: 3em 0;
-    text-align: center;
-    background-color: #1565C0;
-    color: #A4A4A4;
-    ul {
-        list-style: none;
-        padding-left: 0;
-        	li {
-            display: inline-block;
-              a {
-								color: #fff;
-								padding-left: 5px;
-								padding-right: 5px; 
-						}
-        }
-    }
-}
+.footer-flex {
+		padding: 50px;
+	  background-color: #2C3E50;
+	  text-align: center;;
+			ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
+			}
+	}
 
 .footer-info {
     font-size: 80%;
     letter-spacing: .02em;
     color: #fff;
+}
+
+.social {
+
+		padding: 15px;
+		color: white;
 }
