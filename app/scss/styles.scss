@@ -66,6 +66,25 @@ header {
     text-transform: uppercase;
 }
 
+.info-content {
+    display: flex;
+    align-items: baseline;
+    z-index: 1;
+    padding: 1em 0;
+}
+
+.info-title {
+    width: 20%;
+    margin: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.info-description {
+    width: 80%;
+    font-size: 1.25em;
+}
+
 .main-featured-background {
     height: 550px;
     background: #2C3E50;
@@ -115,7 +134,7 @@ header {
 }
 
 .footer-flex {
-		padding: 50px;
+		padding: 75px;
 	  background-color: #2C3E50;
 	  text-align: center;;
 			ul {
@@ -133,8 +152,29 @@ header {
     color: #fff;
 }
 
+.page-title {
+		padding-top: 1em;
+    margin: 0 0 .75em;
+    font-size: 1.5rem;
+    letter-spacing: .02em;
+		text-transform: uppercase;
+}
+
+.page-title:after {
+    content: "";
+    display: block;
+    margin: 1.5em 0;
+    width: 2.5em;
+    height: 1px;
+    background-color: currentColor;
+}
+
 .social {
 
 		padding: 15px;
 		color: white;
+}
+
+.text-emphasis {
+    font-size: 1.5rem;
 }
