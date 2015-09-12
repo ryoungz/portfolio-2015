@@ -102,10 +102,13 @@ header {
   width: 20%;
   margin: 0;
   line-height: 2.25; }
+  .main-notes-date a {
+    color: #2C3E50; }
 
 .main-notes-description {
   width: 80%;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  color: #2C3E50; }
 
 .main-notes-post {
   height: 170px;

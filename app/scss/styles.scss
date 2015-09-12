@@ -1,4 +1,4 @@
-// blue-gray #2C3E50
+$primary-color: #2C3E50;
 
 body {
     margin: 0;
@@ -77,7 +77,7 @@ header {
 
 .info-photo {
 		max-width: 30%;
-		border: 2px solid #2C3E50;
+		border: 2px solid $primary-color;
 }
 
 .info-title {
@@ -95,7 +95,7 @@ header {
 
 .main-featured-background {
     height: 550px;
-    background: #2C3E50;
+    background: $primary-color;
 }
 
 .main-featured-description {
@@ -114,11 +114,15 @@ header {
     width: 20%;
     margin: 0;
     line-height: 2.25;
+  	a {
+  		color: $primary-color;
+  		}
 }
 
 .main-notes-description {
     width: 80%;
     font-size: 1.25em;
+    color: $primary-color;
 }
 
 .main-notes-post {
@@ -143,7 +147,7 @@ header {
 
 .footer-flex {
 		padding: 75px;
-	  background-color: #2C3E50;
+	  background-color: $primary-color;
 	  text-align: center;;
 			ul {
 				list-style: none;
