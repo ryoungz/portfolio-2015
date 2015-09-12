@@ -67,11 +67,18 @@ header {
   z-index: 1;
   padding: 1em 0; }
 
+.info-photo {
+  max-width: 30%;
+  border: 2px solid #2C3E50; }
+
 .info-title {
   width: 20%;
   margin: 0;
   font-size: 1em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
 
 .info-description {
   width: 80%;
