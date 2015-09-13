@@ -1,11 +1,18 @@
-$primary-color: #2C3E50;
+$primary-color: #16659D;
+$color-black: #05070F;
 
 body {
+		color: $primary-color;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     a {
-        color: #05070F;
+        color:$color-black;
     }
+}
+
+img, picture {
+    margin: 0;
+    max-width: 100%;
 }
 
 nav {
@@ -52,20 +59,22 @@ header {
     }
 }
 
-.header-title {
+.main-content .header-title {
     display: inline-block;
     font-size: .9em;
     letter-spacing: .02em;
     text-transform: uppercase;
+    color: $color-black;
 }
 
-.header-subtitle {
+.main-content .header-subtitle {
     margin-left: 5px;
     display: inline-block;
     font-size: .9em;
     font-spacing: .02em;
     font-weight: 100;
     text-transform: uppercase;
+    color: $color-black;
 }
 
 .info-content {
@@ -189,6 +198,40 @@ header {
 
 .text-emphasis {
     font-size: 1.5rem;
+}
+
+.thumb {
+		position: relative;
+		float: left;
+    width: 50%;
+    padding: 0;
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.thumb-title {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 25%;
+    padding: 1.5em;
+    color: $primary-color;
+}
+
+.thumb-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    text-align: center;
+    background-color: rgba(36,42,50,.95);
+    transition: all .3s cubic-bezier(.455,.03,.515,.955);
+}
+
+.thumb-header:hover {
+    opacity: 1;
 }
 
 // flexbox sticky footer
